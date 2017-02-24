@@ -83,7 +83,7 @@ function trataMensagem(event){
         
       default:
         //Enviar mensagem padrao
-        sendTextMessage(senderID, 'Não Entendi');
+        sendTextMessage(senderID, 'Não Entendi, tente de novo');
     }
   }else if(attachments){
     //tratamento dos anexos
